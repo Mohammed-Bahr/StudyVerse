@@ -47,67 +47,67 @@ This course is a comprehensive guide to mastering AI-powered coding agents — c
 
 Get up and running with the fundamentals of both tools.
 
-- [[Subfiles/0. Getting Started|0. Getting Started]]
-- [[Subfiles/1. Slash Commands|1. Slash Commands]]
-- [[Subfiles/2. Memory & Context Persistence|2. Memory & Context Persistence]]
-- [[Subfiles/3. Setting Up Claude Code for a Project|3. Setting Up Claude Code for a Project]]
+- [0. Getting Started](Subfiles/0.%20Getting%20Started.md)
+- [1. Slash Commands](Subfiles/1.%20Slash%20Commands.md)
+- [2. Memory & Context Persistence](Subfiles/2.%20Memory%20%26%20Context%20Persistence.md)
+- [3. Setting Up Claude Code for a Project](Subfiles/3.%20Setting%20Up%20Claude%20Code%20for%20a%20Project.md)
 
 ### 🟡 Intermediate
 
 Deepen your understanding with advanced configuration and agent capabilities.
 
-- [[Subfiles/4. Commands in Depth|4. Commands in Depth]]
-- [[Subfiles/5. Agent Skills|5. Agent Skills]]
-- [[Subfiles/6. Hooks|6. Hooks]]
-- [[Subfiles/7. Model Context Protocol (MCP)|7. Model Context Protocol (MCP)]]
-- [[Subfiles/8. Subagents|8. Subagents]]
+- [4. Commands in Depth](Subfiles/4.%20Commands%20in%20Depth.md)
+- [5. Agent Skills](Subfiles/5.%20Agent%20Skills.md)
+- [6. Hooks](Subfiles/6.%20Hooks.md)
+- [7. Model Context Protocol (MCP)](Subfiles/7.%20Model%20Context%20Protocol%20(MCP).md)
+- [8. Subagents](Subfiles/8.%20Subagents.md)
 
 ### 🔴 Advanced
 
 Push the boundaries with automation, orchestration, and extensibility.
 
-- [[Subfiles/9. Advanced Features|9. Advanced Features]]
-- [[Subfiles/10. Workflows and Automation|10. Workflows and Automation]]
-- [[Subfiles/11. Plugins|11. Plugins]]
+- [9. Advanced Features](Subfiles/9.%20Advanced%20Features.md)
+- [10. Workflows and Automation](Subfiles/10.%20Workflows%20and%20Automation.md)
+- [11. Plugins](Subfiles/11.%20Plugins.md)
 
 ---
 
 ## 📚 Module Summaries
 
-### [[Subfiles/0. Getting Started|0. Getting Started]]
+### [0. Getting Started](Subfiles/0.%20Getting%20Started.md)
 Install Claude Code (`curl -fsSL https://claude.ai/install.sh | bash`) or Opencode (`curl -fsSL https://opencode.ai/install | bash`), authenticate with your API key, and configure your terminal or IDE. Covers your very first session and the basic mental model of AI coding agents.
 
-### [[Subfiles/1. Slash Commands|1. Slash Commands]]
+### [1. Slash Commands](Subfiles/1.%20Slash%20Commands.md)
 Explore the built-in slash commands that control context, session state, and runtime configuration. Learn which commands are shared between Claude Code and Opencode and how to use them effectively to manage your working session.
 
-### [[Subfiles/2. Memory & Context Persistence|2. Memory & Context Persistence]]
+### [2. Memory & Context Persistence](Subfiles/2.%20Memory%20%26%20Context%20Persistence.md)
 Understand how `CLAUDE.md` (and `AGENTS.md` in Opencode) files persist instructions across sessions. Covers auto-memory, path-scoped rules, and strategies for keeping your agent context lean and relevant across large projects.
 
-### [[Subfiles/3. Setting Up Claude Code for a Project|3. Setting Up Claude Code for a Project]]
+### [3. Setting Up Claude Code for a Project](Subfiles/3.%20Setting%20Up%20Claude%20Code%20for%20a%20Project.md)
 Use `/init` to scaffold project configuration, manage tool permissions, customise `settings.json` / `opencode.json`, and share consistent agent settings across your team via version control.
 
-### [[Subfiles/4. Commands in Depth|4. Commands in Depth]]
+### [4. Commands in Depth](Subfiles/4.%20Commands%20in%20Depth.md)
 A deep dive into advanced commands, keyboard shortcuts, Fast Mode, and Vim keybindings. Learn power-user patterns that dramatically speed up your day-to-day interaction with both tools.
 
-### [[Subfiles/5. Agent Skills|5. Agent Skills]]
+### [5. Agent Skills](Subfiles/5.%20Agent%20Skills.md)
 Build reusable `SKILL.md` files that give your agent specialised, on-demand capabilities. Covers dynamic context injection, skill discovery, and how skills run inside isolated subagent contexts to prevent context bleed.
 
-### [[Subfiles/6. Hooks|6. Hooks]]
+### [6. Hooks](Subfiles/6.%20Hooks.md)
 Automate event-driven behaviour with `PreToolUse`, `PostToolUse`, and `Stop` hooks. Learn to validate inputs, log outputs, enforce guardrails, and trigger external side-effects whenever the agent uses a tool or finishes a session.
 
-### [[Subfiles/7. Model Context Protocol (MCP)|7. Model Context Protocol (MCP)]]
+### [7. Model Context Protocol (MCP)](Subfiles/7.%20Model%20Context%20Protocol%20(MCP).md)
 Connect your agent to external data sources and services — GitHub, databases, Slack, Notion, and more — using the Model Context Protocol. Covers MCP server setup, authentication, and tool registration for both Claude Code and Opencode.
 
-### [[Subfiles/8. Subagents|8. Subagents]]
+### [8. Subagents](Subfiles/8.%20Subagents.md)
 Spin up specialised AI agents with isolated contexts and dedicated Git worktrees. Learn subagent design patterns, inter-agent communication, task chaining, and how to orchestrate multiple agents working in parallel on the same codebase.
 
-### [[Subfiles/9. Advanced Features|9. Advanced Features]]
+### [9. Advanced Features](Subfiles/9.%20Advanced%20Features.md)
 Unlock planning mode, Ultraplan, and Auto Mode for long-horizon tasks. Covers sandboxed execution environments, enterprise policy controls, and best practices for running agents safely in sensitive or production-adjacent codebases.
 
-### [[Subfiles/10. Workflows and Automation|10. Workflows and Automation]]
+### [10. Workflows and Automation](Subfiles/10.%20Workflows%20and%20Automation.md)
 Integrate AI coding agents into CI/CD pipelines, scheduled cron tasks, and multi-step automation workflows. Learn how to trigger headless agent runs, parse structured outputs, and compose agents into repeatable engineering pipelines.
 
-### [[Subfiles/11. Plugins|11. Plugins]]
+### [11. Plugins](Subfiles/11.%20Plugins.md)
 Package and distribute your own plugin bundles — combining skills, agent definitions, hooks, MCP server configs, and LSP extensions into a single installable artifact. Covers the plugin manifest format, publishing, and versioning.
 
 ---
