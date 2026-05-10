@@ -14,7 +14,7 @@ source:
 
 ---
 
-For starting to learn claudeCode, go to this page [[Home.md]] and you will find everything you need to get started.
+For starting to learn claudeCode, go to this page [[ClaudeCode/Home.md|Home]] and you will find everything you need to get started.
 
 Claude Code is an AI coding agent from Anthropic. Normally, you use it with a Claude subscription or Anthropic API billing, but you can still learn the Claude Code workflow by routing it through [OpenRouter](https://openrouter.ai/) and using free OpenRouter models.
 
